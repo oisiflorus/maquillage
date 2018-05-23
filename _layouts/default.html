@@ -3,6 +3,10 @@
     {%- include head.html -%}
     <body>
         {%- include header.html -%}
-        {{ content }}
+        <main class="container">
+            <article class=blobContent data-title=content>
+                {{ content }}
+            </article>
+        </main>
     </body>
 </html>
