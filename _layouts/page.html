@@ -2,4 +2,16 @@
 layout: default
 ---
 
+<h1>{{ page.title }}</h1>
+
+<p>{{ page.category | to }} par {{ page.author }}, le {{ page.updated }}, sous licence {{page.licence}}</p>
+
 {{ content }}
+
+<div class=tags>
+    <ul>
+        {% for tag in page.tags %}
+          <li>{{ tag }}</li>
+        {% endfor %}
+    </ul>
+  </div>

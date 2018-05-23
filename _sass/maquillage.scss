@@ -343,7 +343,6 @@ header .search-engine input[type="submit"] {
   padding: 0;
 }
 .tags li {
-  display: inline-block;
   float: left;
   background: #fafafa;
   border-radius: 2px;
@@ -351,6 +350,10 @@ header .search-engine input[type="submit"] {
   padding: 3px 10px;
   margin-right: 8px;
   margin-bottom: 8px;
+}
+
+.tags li:before {
+  content: "";
 }
 
 @media (max-width:768px) {

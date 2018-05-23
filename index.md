@@ -1,10 +1,13 @@
 ---
-title: Cercle excentrique
+title: Cercle excentrique / Fish Bowl
 description: Impliquer un grand groupe dans la discussion d'un plus petit groupe. Idéal pour favoriser l'écoute.
+updated: 23-05-2018
+author: Thomas Wolff
+licence: CC0-1.0
 image_url: https://github.com/cpcoop/animer_ateliers/blob/master/echanger/cercle_excentrique.jpg?raw=true
+tags:  [parole, groupe]
+category: Fiche pratique
 ---
-
-# Cercle excentrique / Fish Bowl
 
 ## En une phrase
 
