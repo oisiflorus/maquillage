@@ -6,9 +6,11 @@ Gem::Specification.new do |spec|
   spec.authors       = ["pntbr"]
   spec.email         = ["stephane.langlois@scopyleft.fr"]
 
-  spec.summary       = "TODO: Write a short summary, because Rubygems requires one."
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
-  spec.license       = "MIT"
+  spec.summary       = "A minimal theme for Daktary."
+  spec.homepage      = "https://github.com/daktary-team/maquillage"
+  spec.license       = "CCO-1.0"
+
+  spec.metadata["plugin_type"] = "theme"
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|_layouts|_includes|_sass|LICENSE|README)!i) }
 
