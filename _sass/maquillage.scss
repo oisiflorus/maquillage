@@ -169,7 +169,7 @@ header .search-engine input[type="submit"] {
 }
 .blobGhLink {
   margin-bottom: 5px;
-  background: url(../img/ico-github.svg) 0 0 no-repeat;
+  background: url(/assets/ico-github.svg) 0 0 no-repeat;
   background-size: 16px;
 }
 .blobPageTop {
@@ -177,7 +177,7 @@ header .search-engine input[type="submit"] {
   bottom: 50px;
   width: 32px;
   height: 32px;
-  background: url(../img/ico-top.svg) 0 no-repeat;
+  background: url(/assets/ico-top.svg) 0 no-repeat;
   background-size: 32px;
 }
 /* Tooltip Styles
@@ -343,7 +343,6 @@ header .search-engine input[type="submit"] {
   padding: 0;
 }
 .tags li {
-  display: inline-block;
   float: left;
   background: #fafafa;
   border-radius: 2px;
@@ -351,6 +350,10 @@ header .search-engine input[type="submit"] {
   padding: 3px 10px;
   margin-right: 8px;
   margin-bottom: 8px;
+}
+
+.tags li:before {
+  content: "";
 }
 
 @media (max-width:768px) {
@@ -431,17 +434,17 @@ header .search-engine input[type="submit"] {
 }
 
 .ghTypeRepo h2:before {
-  background: url(../img/ico-repo.svg) 0 0 no-repeat;
+  background: url(/assets/ico-repo.svg) 0 0 no-repeat;
   background-size: 16px;
 }
 
 .ghTypeFolder h2:before {
-  background: url(../img/ico-directory.svg) 0 0 no-repeat;
+  background: url(/assets/ico-directory.svg) 0 0 no-repeat;
   background-size: 20px;
 }
 
 .ghTypeFile h2:before {
-  background: url(../img/ico-file-text.svg) 0 0 no-repeat;
+  background: url(/assets/ico-file-text.svg) 0 0 no-repeat;
   background-size: 16px;
 }
 .ghTree h2 a {
