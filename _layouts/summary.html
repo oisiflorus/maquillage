@@ -7,7 +7,13 @@ layout: default
     {% if page.page-type != "info" and page.url != "/" %}
       <article class="ghTreeItem ghTypeFile" data-title="dir">
           <h2 class="ghTreeTitle">
-              <a class="folderLink" data-title="folderLink" href="{{ page.url | relative_url }}">{{ page.title }}</a>
+              <a class="folderLink" data-title="folderLink" href="{{ page.url | relative_url }}">
+              {% if page.title == nil %}
+                {{ page.path | replace:'.md', '' }}
+              {% else %}
+                {{ page.title }}
+              {% endif %}
+              </a>
           </h2>
           <p class="ghTreeExcerpt" data-title="fileExcerpt">{{ page.description }}</p>
           <a class="ghTreeReadmore" title="Lire la suite de la fiche : Animer des ateliers collaboratifs" data-title="fileReadmoreLink" href="{{ page.url | relative_url }}">Lire la suite de la fiche</a>
