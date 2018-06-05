@@ -1,11 +1,11 @@
 ---
 layout: default
 ---
-
-<h1>page url: {{ page.url }}</h1>
+page url: {% page.url %}
 
 {% if page.url == "/" %}
 	{%- include summary.html -%}
 {% else %}
 	{%- include content.html -%}
 {% endif %}
+
