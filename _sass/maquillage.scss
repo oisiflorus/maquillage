@@ -1,5 +1,5 @@
 /*
- * GENERAL
+ * GENERAL 
  */
 
 
@@ -286,7 +286,6 @@ header .search-engine input[type="submit"] {
 }
 .blobContent img {
   display: block;
-  vertical-align: middle;
   padding: 4px;
   margin: 0.75rem 0;
   background-color: #fff;
@@ -433,20 +432,6 @@ header .search-engine input[type="submit"] {
   padding-right: 10px;
 }
 
-.ghTypeRepo h2:before {
-  background: url(/assets/ico-repo.svg) 0 0 no-repeat;
-  background-size: 16px;
-}
-
-.ghTypeFolder h2:before {
-  background: url(/assets/ico-directory.svg) 0 0 no-repeat;
-  background-size: 20px;
-}
-
-.ghTypeFile h2:before {
-  background: url(/assets/ico-file-text.svg) 0 0 no-repeat;
-  background-size: 16px;
-}
 .ghTree h2 a {
   display: table-cell;
 }
