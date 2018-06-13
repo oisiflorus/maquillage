@@ -8,8 +8,6 @@ description: >
 
 theme: maquillage
 
-gh_url: https://github.com/
-
 encoding: UTF-8
 kramdown:
   input: GFM
