@@ -2,4 +2,7 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
+$page-url: "{{ site.url }}";
+
+
 @import "maquillage";
