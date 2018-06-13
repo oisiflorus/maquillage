@@ -2,7 +2,7 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-$url: "{{ site.remote-theme }}";
+$url: "{{ site.remote_theme }}";
 
 
 @import "maquillage";
