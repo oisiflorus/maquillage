@@ -4,6 +4,6 @@
 
 $config0: "{{ site.remote_theme }}";
 $config1: "{{ site.theme }}";
-$config2: "{{ site.url }}";
+$config2: "{{ site.gh_url }}";
 
 @import "maquillage";
