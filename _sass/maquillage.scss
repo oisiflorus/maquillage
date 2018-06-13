@@ -450,3 +450,8 @@ header .search-engine input[type="submit"] {
 .ghTreeContent {
   margin-left: 30px;
 }
+
+.ghTypeRepo h2:before {
+  background: url($base_ul ico-repo.svg) 0 0 no-repeat;
+  background-size: 16px;
+}

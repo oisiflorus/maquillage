@@ -2,7 +2,7 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-$base_url: "https://www.github.com/{{ site.github.project_title }}";
+$base_url: "https://www.github.com/{{ site.remote_theme }}/assets";
 $config1: "https://www.github.com/"{{ site.github.project_title }};
 $config2: "{{ site.gh_url }}";
 
