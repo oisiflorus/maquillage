@@ -452,6 +452,16 @@ header .search-engine input[type="submit"] {
 }
 
 .ghTypeRepo h2:before {
-  background: url($base_ul ico-repo.svg) 0 0 no-repeat;
+  background: url(#{$base_url}/assets/ico-repo.svg) 0 0 no-repeat;
+  background-size: 16px;
+}
+
+.ghTypeFolder h2:before {
+  background: url(#{$base_url}/assets/ico-directory.svg) 0 0 no-repeat;
+  background-size: 20px;
+}
+
+.ghTypeFile h2:before {
+  background: url(#{$base_url}/assets/ico-file-text.svg) 0 0 no-repeat;
   background-size: 16px;
 }

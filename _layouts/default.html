@@ -1,20 +1,17 @@
 <!doctype html>
 <html lang="{{ page.lang | default: site.lang | default: "fr" }}">
     {%- include head.html -%}
-    <style>
-        # Put css here because I can't access to -liquid- variable in scss
-
-        .ghTypeFolder h2:before {
-            background: url(/assets/ico-directory.svg) 0 0 no-repeat;
-            background-size: 20px;
-        }
-
-        .ghTypeFile h2:before {
-            background: url(/assets/ico-file-text.svg) 0 0 no-repeat;
-            background-size: 16px;
-        }
-    </style>
     <body>
+        <ul>
+            {% for setting in site %}
+                <li>{{ setting }}: </li>
+            {% endfor %}
+
+            <li>remote_theme : {{ site.remote_theme }}</li>
+        </ul>
+        {{ site.remote_theme }}
+        {{ site.url }}
+        {{ github.title }}
         {%- include header.html -%}
         <main class="container">
             {{ content }}
