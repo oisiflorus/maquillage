@@ -4,15 +4,11 @@
     <body>
         <ul>
             {% for setting in site %}
-                <li>{{ setting }}: </li>
+                <li>{{ setting }}: {{ site[setting] }}</li>
             {% endfor %}
 
             <li>remote_theme : {{ site.remote_theme }}</li>
         </ul>
-        {{ site.remote_theme }}
-        {{ site.url }}
-        {{ github.title }}
-        {%- include header.html -%}
         <main class="container">
             {{ content }}
         </main>
