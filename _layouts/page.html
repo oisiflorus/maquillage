@@ -2,18 +2,9 @@
 layout: default
 ---
 
-<article class=blobContent data-title=content>
-	<h1>{{ page.title }}</h1>
+{% if page.url == "/" %}
+	{%- include summary.html -%}
+{% else %}
+	{%- include content.html -%}
+{% endif %}
 
-	{{ page.category | to }} par {{ page.author }}, le {{ page.updated }}, sous licence {{page.licence}}
-
-	{{ content }}
-
-	<div class=tags>
-		<ul>
-			{% for tag in page.tags %}
-			<li>{{ tag }}</li>
-			{% endfor %}
-		</ul>
-	</div>
-</article>
