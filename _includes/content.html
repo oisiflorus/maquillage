@@ -1,14 +1,11 @@
+
+
 <aside class="blobTools">
-    {% if site.github %}
-		<a href={{ site.github.repository/url }}/blob/{{ site.github.branch }}/{{ page.path }} title="Voir sur Github" class="blobGhLink tooltip" data-title="githubLink"></a>
-    <a href="#top" class="blobPageTop">Haut de page</a>
+    {% if site.github.pages_hostname == "github.io" %}
+		<a href={{ site.github.repository_url }}/blob/{{ site.github.source.branch }}/{{ page.path }} title="Voir sur Github" class="blobGhLink tooltip" data-title="githubLink"></a>
     {% endif %}
+    <a href="#top" class="blobPageTop">Haut de page</a>
 </aside>
-
-<p>
-    github: {{ site.github }}
-
-</p>
 
 <article class=blobContent data-title=content>
   <h1>{{ page.title }}</h1>
