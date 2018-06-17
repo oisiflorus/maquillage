@@ -453,3 +453,28 @@ header .search-engine input[type="submit"] {
   background: url('data:image/svg+xml,<svg height="16" width="12" xmlns="http://www.w3.org/2000/svg"><path d="M6 5H2v-1h4v1zM2 8h7v-1H2v1z m0 2h7v-1H2v1z m0 2h7v-1H2v1z m10-7.5v9.5c0 0.55-0.45 1-1 1H1c-0.55 0-1-0.45-1-1V2c0-0.55 0.45-1 1-1h7.5l3.5 3.5z m-1 0.5L8 2H1v12h10V5z" fill="rgba(41, 171, 226, 1)" /></svg>') 0 0 no-repeat;
   background-size: 16px;
 }
+
+/* 
+404
+*/
+#error-404 {
+  font-family: sans-serif;
+  color: #444;
+  text-align: center;
+  margin: 0px auto;
+  margin-top: 5rem;
+  max-width: 620px;
+}
+#error-404 h1,
+#error-404 h2 {
+  text-align: left;
+  margin: 0px;
+}
+#error-404 h1 {
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+#error-404 h2 {
+  font-weight: 100;
+  font-size: 1rem;
+}
