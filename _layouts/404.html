@@ -5,8 +5,9 @@ layout: default
 <div id="error-404">
     <h2>ERROR 404</h2>
     <h1>PROPHET LOST</h1>
-    {% assign remote_theme = {{ site.remote_theme | split "@" | first }} %}
-    https://raw.githubusercontent.com/{{remote_theme}}/master/assets/error404.png <br>
+
+    {% assign remote_theme = {{ site.remote_theme | split "@" }} %}
+    https://raw.githubusercontent.com/{{remote_theme.first}}/master/assets/error404.png <br>
     {{ site.url }}
     https://raw.githubusercontent.com/daktary-team/maquillage/master/assets/error404.png <br>
     <img src="./assets/error404.png">
