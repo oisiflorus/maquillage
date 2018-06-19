@@ -49,7 +49,7 @@ On a commencé là en se disant que ce serait facile à migrer. Bientôt on pass
 
 **Pourquoi je dois faire des trucs techniques comme créer des fichiers *yaml* ?**
 
-Avec [coup de pinceau](https://github.com/daktary-team/coup-de-pinceau) ça se passera en un clic, la moins bonne nouvelle c'est qu'on a tranquillement la fabrication de l'outil dans notre liste à faire.
+Avec [coup de pinceau](https://github.com/daktary-team/coup-de-pinceau) ça se passera en un clic. On y travaille tranquillement.
 
 **Et si je galère, je fais comment ?**
 
