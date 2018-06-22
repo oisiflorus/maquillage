@@ -58,10 +58,15 @@ Plein de solutions s'offrent à toi, parmi lesquelles :
 - tu peux contacter [Stéphane](mailto:stephane.langlois@scopyleft.fr)
 - on pourrait programmer une exploration collective un peu comme un devopensud.fr
 
+**Et la suite, c'est quoi ?
+
+on utilise la [grainerie](https://github.com/daktary-team/maquillage/projects/1) pour prioriser nos idées.
+
 ## Quelques explications sur le "projet"
 
 ### À quoi on aspire ?
-Présenter convenablement mes ressources *markdown* en renseignant un fichier de configuration minimaliste.
+
+Présenter convenablement des ressources *markdown* en renseignant un fichier de configuration minimaliste.
 
 ### Qui seraient intéressé·e·s ?
 - Pour les utilisat·eur·rice·s de multibao.
