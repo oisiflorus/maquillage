@@ -14,6 +14,9 @@ future: true
 jailed: false
 gfm_quirks: paragraph_end
 
+plugins:
+- jekyll-gitlab-metadata
+
 defaults:
   -
     scope:
