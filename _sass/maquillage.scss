@@ -67,16 +67,13 @@ a {
   color: #73d56b;
 }
 
+h1,
 h2,
 h3 {
   color: #73d56b;
 }
 
-h1 {
-  font-family: "Montserrat", Arial, sans-serif;
-}
 h1 a {
-  color: #002920;
   text-decoration: none;
 }
 h1 span {
@@ -230,9 +227,9 @@ header .search-engine input[type="submit"] {
   margin-bottom: 1.75rem;
 }
 .blobContent h2 {
-  font-size: 2.3375rem;
+  font-size: 2rem;
   line-height: 1.75rem;
-  margin-top: 3.5rem;
+  margin-top: 3.5rem; 
   margin-bottom: 1.75rem;
 }
 .blobContent h3 {
