@@ -47,40 +47,40 @@ ul {
 
 body {
   font-family: "Open Sans", Arial, sans-serif;
-  font-size: 1rem;
+  font-size: 1em;
   line-height: 1.2;
-  color: #4d4d4d;
+  color: #002920;
   -webkit-font-smoothing: antialiased;
   background:  rgb(252, 249, 255);
-  border-top: 3px solid #29abe2;
+  border-top: 3px solid #73d56b;
 }
 
 .container {
   margin: 0px auto;
-  width: 620px;
+  width: 845px;
 }
 p {
   margin-top: 0;
   margin-bottom: 10px;
 }
 a {
-  color: #29abe2;
+  color: #73d56b;
 }
 
 h2,
 h3 {
-  color: #29abe2;
+  color: #73d56b;
 }
 
 h1 {
   font-family: "Montserrat", Arial, sans-serif;
 }
 h1 a {
-  color: #4d4d4d;
+  color: #002920;
   text-decoration: none;
 }
 h1 span {
-  color: #29abe2;
+  color: #73d56b;
 }
 
 header {
@@ -88,7 +88,7 @@ header {
   width: 100%;
   padding: 20px 0 30px;
   margin-bottom: 30px;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #002920;
 }
 
 /*header with search engine*/
@@ -106,8 +106,8 @@ header .search-engine input[type="text"] {
 header .search-engine input[type="submit"] {
   padding: 5px;
   color: #fff;
-  font-size: 0.8rem;
-  background-color: #29abe2;
+  font-size: 1.1rem;
+  background-color: #73d56b;
   border: none;
   cursor: pointer;
 }
@@ -196,11 +196,11 @@ header .search-engine input[type="submit"] {
   left: 50%;
   padding: .25em .5em;
   min-width: 75px;
-  font-size: .8em;
+  font-size: 1.1em;
   color: #fff;
   text-indent: 0;
   text-align: center;
-  background: black;
+  background: 002920;
   opacity: 0;
   pointer-events: none;
   transform: translateX(-50%);
@@ -224,25 +224,25 @@ header .search-engine input[type="submit"] {
   color: rgba(0,0,0,0.7);
 }
 .blobContent h1 {
-  font-size: 2.25rem;
+  font-size: 2.65rem;
   line-height: 2.5rem;
   margin-top: 0;
   margin-bottom: 1.75rem;
 }
 .blobContent h2 {
-  font-size: 1.9375rem;
+  font-size: 2.3375rem;
   line-height: 1.75rem;
   margin-top: 3.5rem;
   margin-bottom: 1.75rem;
 }
 .blobContent h3 {
-  font-size: 1.1875rem;
+  font-size: 1.4875rem;
   line-height: 1.75rem;
   margin-top: 1.75rem;
   margin-bottom: 1.75rem;
 }
 .blobContent h4 {
-  font-size: 1.1875rem;
+  font-size: 1.4875rem;
   line-height: 1.75rem;
   margin-top: 1.75rem;
   margin-bottom: 1.75rem;
@@ -253,7 +253,7 @@ header .search-engine input[type="submit"] {
 .blobContent table{
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
-  font-size: 1.188rem;
+  font-size: 1.488rem;
   line-height: 1.5;
 }
 .blobContent ul {
@@ -293,20 +293,20 @@ header .search-engine input[type="submit"] {
   padding: 4px;
   margin: 0.75rem 0;
   background-color: #fff;
-  border: 1px solid #29abe2;
+  border: 1px solid #73d56b;
   border-radius: 4px;
   transition: all .2s ease-in-out;
 }
 .blobContent a {
-  color: #4d4d4d;
+  color: #002920;
   text-decoration: none;
-  border-bottom: 1px solid #4d4d4d;
+  border-bottom: 1px solid #002920;
   transition: all 0.3s
 }
 .blobContent a:hover,
 .blobContent a:focus {
-  color: #29abe2;
-  border-bottom-color: #29abe2;
+  color: #73d56b;
+  border-bottom-color: #73d56b;
 }
 .blobContent pre,
 .blobContent blockquote {
@@ -323,7 +323,7 @@ header .search-engine input[type="submit"] {
   letter-spacing: .01rem;
   font-weight: 400;
   font-style: italic;
-  border-left: 5px solid #29abe2;
+  border-left: 5px solid #73d56b;
 }
 .blobContent blockquote p {
   margin: 0;
@@ -410,7 +410,7 @@ header .search-engine input[type="submit"] {
     width: 25%;
     height: 1px;
     margin: auto;
-    background: #000;
+    background: #002920;
   }
   .ghTreeTitle {
     margin-top: 0;
@@ -450,7 +450,7 @@ header .search-engine input[type="submit"] {
 }
 
 .ghTypeFile h2:before {
-  background: url('data:image/svg+xml,<svg height="16" width="12" xmlns="http://www.w3.org/2000/svg"><path d="M6 5H2v-1h4v1zM2 8h7v-1H2v1z m0 2h7v-1H2v1z m0 2h7v-1H2v1z m10-7.5v9.5c0 0.55-0.45 1-1 1H1c-0.55 0-1-0.45-1-1V2c0-0.55 0.45-1 1-1h7.5l3.5 3.5z m-1 0.5L8 2H1v12h10V5z" fill="rgba(41, 171, 226, 1)" /></svg>') 0 0 no-repeat;
+  background: url('data:image/svg+xml,<svg height="16" width="12" xmlns="http://www.w3.org/2000/svg"><path d="M6 5H2v-1h4v1zM2 8h7v-1H2v1z m0 2h7v-1H2v1z m0 2h7v-1H2v1z m10-7.5v9.5c0 0.55-0.45 1-1 1H1c-0.55 0-1-0.45-1-1V2c0-0.55 0.45-1 1-1h7.5l3.5 3.5z m-1 0.5L8 2H1v12h10V5z" fill="rgba(115, 213, 107, 1)" /></svg>') 0 0 no-repeat;
   background-size: 16px;
 }
 
@@ -459,7 +459,7 @@ header .search-engine input[type="submit"] {
 */
 #error-404 {
   font-family: sans-serif;
-  color: #444;
+  color: #002920;
   text-align: center;
   margin: 0px auto;
   margin-top: 5rem;
